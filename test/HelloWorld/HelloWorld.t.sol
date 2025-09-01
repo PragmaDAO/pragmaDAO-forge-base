@@ -12,13 +12,13 @@ contract HelloWorldTest is Test {
     }
 
     /// @dev Tests that the greet() function returns the correct string.
-    function test_greetReturnsHelloWorld() public {
+    function test_greetReturnsHelloWorld() public view {
         assertEq(helloWorld.greet(), "Hello, World!", "greet() should return 'Hello, World!'");
     }
 
     /// @dev Tests that the contract includes a public state variable named 'greeting'.
     /// The compiler automatically creates a getter function for public state variables.
-    function test_greetingStateVariableIsPublic() public {
+    function test_greetingStateVariableIsPublic() public view {
         // We test this by trying to access the state variable.
         // If the variable is public, the getter `greeting()` will exist.
         // While this test seems redundant with the constructor logic, it ensures
