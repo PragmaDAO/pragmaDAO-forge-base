@@ -1,14 +1,14 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.26;
 
 import "forge-std/Test.sol";
 import "../../src/IntegersAndUnsignedIntegers.sol";
 
 contract IntegerBasicsTest is Test {
-    IntegersAndUnsignedIntegers public integerBasics;
+    IntegerBasics public integerBasics;
 
     function setUp() public {
-        integerBasics = new IntegersAndUnsignedIntegers();
+        integerBasics = new IntegerBasics();
     }
 
     function testSetValues() public {
