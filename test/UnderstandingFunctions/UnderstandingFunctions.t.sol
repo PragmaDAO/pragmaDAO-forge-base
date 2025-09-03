@@ -5,10 +5,10 @@ import "forge-std/Test.sol";
 import "../../src/UnderstandingFunctions.sol";
 
 contract SimpleFunctionsTest is Test {
-    UnderstandingFunctions public simpleFunctions;
+    SimpleFunctions public simpleFunctions;
 
     function setUp() public {
-        simpleFunctions = new UnderstandingFunctions();
+        simpleFunctions = new SimpleFunctions();
     }
 
     function testGetNumber() public {
