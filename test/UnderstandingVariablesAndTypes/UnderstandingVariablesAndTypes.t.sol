@@ -2,13 +2,13 @@
 pragma solidity ^0.8.26;
 
 import "forge-std/Test.sol";
-import "../../src/UnderstandingVariablesAndTypes.sol";
+import "../../../public/lessons/solidity/VariableTypes.sol";
 
 contract UnderstandingVariablesAndTypesTest is Test {
-    UnderstandingVariablesAndTypes public variableTypes;
+    VariableTypes public variableTypes;
 
     function setUp() public {
-        variableTypes = new UnderstandingVariablesAndTypes();
+        variableTypes = new VariableTypes();
     }
 
     function test_myUint() public view {
