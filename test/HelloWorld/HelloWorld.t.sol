@@ -2,7 +2,7 @@
 pragma solidity ^0.8.26;
 
 import "forge-std/Test.sol";
-import "../../src/HelloWorld.sol";
+import "user_contract/HelloWorld.sol";
 
 contract HelloWorldTest is Test {
     HelloWorld public helloWorld;

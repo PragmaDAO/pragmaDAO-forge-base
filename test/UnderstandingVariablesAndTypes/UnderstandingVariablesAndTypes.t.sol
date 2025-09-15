@@ -2,7 +2,7 @@
 pragma solidity ^0.8.26;
 
 import "forge-std/Test.sol";
-import "../../../public/lessons/solidity/VariableTypes.sol";
+import "user_contract/VariableTypes.sol";
 
 contract UnderstandingVariablesAndTypesTest is Test {
     VariableTypes public variableTypes;

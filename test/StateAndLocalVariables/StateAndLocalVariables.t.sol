@@ -2,7 +2,7 @@
 pragma solidity ^0.8.26;
 
 import "forge-std/Test.sol";
-import "../../src/StateAndLocalVariables.sol";
+import "user_contract/StateAndLocalVariables.sol";
 
 contract StateAndLocalVariablesTest is Test {
     StateAndLocalVariables public contractInstance;

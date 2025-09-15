@@ -2,7 +2,7 @@
 pragma solidity ^0.8.7;
 
 import "forge-std/Test.sol";
-import "../../src/DefaultLesson.sol"; // Still imports DefaultLesson.sol, which now contains HelloWorld
+import "user_contract/HelloWorld.sol";
 
 contract DefaultLessonTest is Test {
     HelloWorld public defaultLesson; // Type is HelloWorld

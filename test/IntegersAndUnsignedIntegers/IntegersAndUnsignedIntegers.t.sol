@@ -2,7 +2,7 @@
 pragma solidity ^0.8.26;
 
 import "forge-std/Test.sol";
-import "../../src/IntegersAndUnsignedIntegers.sol";
+import "user_contract/IntegerBasics.sol";
 
 contract IntegerBasicsTest is Test {
     IntegerBasics public integerBasics;
